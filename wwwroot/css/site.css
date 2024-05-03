@@ -1,0 +1,78 @@
+html, body {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px; /* Default font size */
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 60px; /* Bottom margin for footer */
+    color: #333; /* Dark text color for better contrast */
+    background-color: #f8f9fa; /* Light background color for readability */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Responsive font sizes */
+h1 {
+    font-size: 2.5rem; /* Responsive font size */
+}
+
+h2 {
+    font-size: 1.5rem; /* Responsive font size */
+}
+
+p {
+    font-size: 1rem; /* Responsive font size */
+}
+
+/* Improve button focus styles */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1), 0 0 0 0.25rem #258cfb;
+    outline: none; /* Remove default outline */
+}
+
+/* Footer styling */
+#footer {
+    text-align: center;
+    color: #D6B47E;
+    font-weight: 300;
+    font-size: 1rem; /* Responsive font size */
+    padding: 20px 0; /* Add padding for spacing */
+    background-color: #222; /* Add background color for contrast */
+}
+
+/* Custom heading style */
+h1 {
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    color: #D6B47E;
+}
+
+/* Custom secondary heading style */
+h2 {
+    display: inline-block;
+    text-align: center;
+    background-color: #D6B47E;
+    padding: 3px 10px;
+    margin: 5px;
+    font-size: 1.75rem;
+    color: white;
+}
+
+/* Other styles */
+.btn-primary {
+    background-color: #258cfb; /* Update button color for consistency */
+    border-color: #258cfb; /* Update button border color */
+}
